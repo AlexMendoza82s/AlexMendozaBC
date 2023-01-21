@@ -17,3 +17,18 @@ html
     margin-left: 10%;
     margin-right: 10%;
 }
+main
+{
+    display: grid;
+    grid-template-areas: 
+    "web web"
+    "img desc";
+}
+#divInfo
+{
+    display: grid;
+}
+#pub
+{
+    text-align: right;
+}
